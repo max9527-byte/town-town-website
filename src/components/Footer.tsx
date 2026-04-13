@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Mail, Phone, MapPin, Linkedin, Facebook, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Facebook, Globe } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
               <Facebook size={18} />
             </Link>
             <Link href="#" className="p-2 bg-slate-800 rounded-full hover:bg-brand-teal transition-colors duration-300">
-              <Twitter size={18} />
+              <Globe size={18} />
             </Link>
           </div>
         </div>
