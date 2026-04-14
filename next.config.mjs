@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Standard Next.js build for better Vercel compatibility
   images: {
     unoptimized: true,
   },
